@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Account</title>
+</head>
+<body>
+<h1>Create An Account </h1>
+<form>
+<pre>
+    <label>First Name<input id="firstName" required placeholder="firstName" type="text"> </label>
+    <label>last Name<input id="lastName" required placeholder="lastName" type="text" > </label>
+    <label>email<input id="email" required placeholder="email" type="email"> </label>
+    <label>User Name<input id="userName" required placeholder="userName" type="text"> </label>
+    <label>password<input id="password" required minlength="10" placeholder="password" type="password"> </label>
+    <label>birth<input id="birth" required placeholder="birthDate" type="date"> </label>
+    <label>How happy are you?<input id="happy" required name="birthDate" type="range" list="tickmarks"> <datalist id="tickmarks">
+  <option value="0"></option>
+  <option value="10"></option>
+  <option value="20"></option>
+  <option value="30"></option>
+  <option value="40"></option>
+  <option value="50"></option>
+  <option value="60"></option>
+  <option value="70"></option>
+  <option value="80"></option>
+  <option value="90"></option>
+  <option value="100"></option>
+</datalist> </label>
+    <label>What is your fav. color<input id="fav_color" required type="color"> </label>
+    <input type="submit" value="Create Account" >
+</pre>
+</form>
+</body>
+</html>
